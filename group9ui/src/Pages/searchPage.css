@@ -1,0 +1,89 @@
+.searchPage {
+    background: #231F20;
+    height: 100%;
+    padding: 20px;
+  
+  }
+
+.MenuButtons {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchPage-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+    background: #8E793E;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 8px 13px 5px 0px #6d5e34;
+
+}
+
+.searchPage-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.btnSearch {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnGroup{
+    background-color: #ad974f;
+    box-shadow: 8px 13px 5px 0px #6d5e34;
+}
+
+.btnSearchOptions Button:hover{
+    background-color: #e22013;
+}
+
+.btnSearchOptions Button{
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+#courseDescription {
+    height: 200px;
+    width: 800px;
+}

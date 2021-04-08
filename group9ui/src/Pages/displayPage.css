@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .homePage {
+    background: #231F20;
+    padding-bottom: 20px;
+  }
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* padding between column's */
+  .row,
+  .row > .column {
+    padding: 2px;
+}
+
+  /* create 2 columns */
+  .column {
+    border-radius: 10px;
+    float: left;
+    width: 50.00%;
+    text-align: center;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .displayPage-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 800px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+    background: #8E793E;
+    border-radius: 15px;
+    
+  }
+
+  .graphBtn {
+
+    display: flex;
+    justify-content: center;
+
+  }
+

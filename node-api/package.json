@@ -1,0 +1,18 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "A node.js Restful API built for our website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js echo \"Starting api.....\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team 9",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "forever": "^3.0.4",
+    "mysql": "^2.18.1"
+  }
+}
